@@ -171,6 +171,9 @@ int main(int argc, char **argv)
     printf("Result: \n");
     print_matrix(C);
     printf("---- END RESULTS ----\n");
+    free_matrix(A);
+    free_matrix(B);
+    free_matrix(C);
   }
 
   if (show_usec)
